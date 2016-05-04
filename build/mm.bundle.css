@@ -9493,6 +9493,35 @@ input.mma-files-picker {
   opacity: 0;
   outline: none; }
 
+.mma-messages-date {
+  text-align: center;
+  margin-top: 10px; }
+
+.mma-messages-input-inset {
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0; }
+
+.mma-messages-footer-note {
+  color: #444;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  width: 100%; }
+
+.button.mma-messages-clear-search {
+  top: 0px; }
+
+.mma-messages-discussion-container {
+  padding-bottom: 15px; }
+
+.button.button-icon.mma-messages-delete-button {
+  min-height: initial;
+  line-height: initial; }
+  .button.button-icon.mma-messages-delete-button:before {
+    font-size: 100%;
+    line-height: initial; }
+
 /* - User grades table (most of it extracted from MM1)
 -------------------------------------------------------------------------- */
 .mma-grades-table {
@@ -9566,34 +9595,22 @@ input.mma-files-picker {
   .mma-grades-table .leveleven {
     background-color: #fff; }
 
-.mma-messages-date {
-  text-align: center;
-  margin-top: 10px; }
+.mma-mod_choice-user {
+  position: relative;
+  display: inline-block; }
+  .mma-mod_choice-user img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -20px; }
+  .mma-mod_choice-user p {
+    display: inline-block;
+    padding-top: 50px; }
 
-.mma-messages-input-inset {
-  padding-top: 0;
-  padding-left: 0;
-  padding-bottom: 0; }
-
-.mma-messages-footer-note {
-  color: #444;
-  font-size: 14px;
-  text-align: center;
-  margin: 0;
-  width: 100%; }
-
-.button.mma-messages-clear-search {
-  top: 0px; }
-
-.mma-messages-discussion-container {
-  padding-bottom: 15px; }
-
-.button.button-icon.mma-messages-delete-button {
-  min-height: initial;
-  line-height: initial; }
-  .button.button-icon.mma-messages-delete-button:before {
-    font-size: 100%;
-    line-height: initial; }
+.mma-mod_choice-graph-horizontal {
+  height: 50px; }
 
 .mma-chat-notice {
   text-align: center;
@@ -9617,23 +9634,6 @@ input.mma-files-picker {
 .mma-chat-reconnect-button, .button.mma-chat-reconnect-button {
   margin: 0; }
 
-.mma-mod_choice-user {
-  position: relative;
-  display: inline-block; }
-  .mma-mod_choice-user img {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    left: 50%;
-    margin-left: -20px; }
-  .mma-mod_choice-user p {
-    display: inline-block;
-    padding-top: 50px; }
-
-.mma-mod_choice-graph-horizontal {
-  height: 50px; }
-
 .mma-forum-discussion-link {
   text-decoration: none; }
 
@@ -9649,6 +9649,24 @@ input.mma-files-picker {
   width: 100%;
   height: 200px;
   resize: none; }
+
+.mma-mod_survey-darkbg {
+  background-color: #f5f5f5; }
+
+.mma-mod_survey-padding-top {
+  padding-top: 20px; }
+
+textarea.mma-mod_survey-textarea {
+  height: 100px;
+  border: 1px solid #ddd; }
+
+select.mma-mod_survey-select {
+  background-color: transparent;
+  padding-left: 0px;
+  padding-right: 32px;
+  max-width: 100%; }
+  select.mma-mod_survey-select .mma-mod_survey-defaultoption {
+    display: none; }
 
 .mma-scorm-level-0 {
   padding-left: 16px; }
@@ -9726,24 +9744,6 @@ ion-popover-view {
 .platform-ios ion-popover-view.mma-scorm-popover {
   padding-top: 10px;
   padding-bottom: 10px; }
-
-.mma-mod_survey-darkbg {
-  background-color: #f5f5f5; }
-
-.mma-mod_survey-padding-top {
-  padding-top: 20px; }
-
-textarea.mma-mod_survey-textarea {
-  height: 100px;
-  border: 1px solid #ddd; }
-
-select.mma-mod_survey-select {
-  background-color: transparent;
-  padding-left: 0px;
-  padding-right: 32px;
-  max-width: 100%; }
-  select.mma-mod_survey-select .mma-mod_survey-defaultoption {
-    display: none; }
 
 .wiki-toc {
   border: 1px solid #bbb;
