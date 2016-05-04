@@ -1,0 +1,20 @@
+{
+    "about": "Acerca de",
+    "appname": "Moodle Mobile {{version}}",
+    "cacheexpirationtime": "Tiempo de expiración de caché (mili segundos)",
+    "credits": "Créditos",
+    "currentlanguage": "Idioma actual",
+    "deletesitefiles": "¿Está seguro de que desea borrar todos los archivos descargados de este sitio?",
+    "development": "Desarrollo",
+    "enabledebugging": "Activar modo debug",
+    "estimatedfreespace": "Espacio libre (estimado)",
+    "general": "General",
+    "language": "Idioma",
+    "license": "Licencia",
+    "settings": "Ajustes",
+    "spaceusage": "Espacio",
+    "success": "Éxito",
+    "synchronization": "Sincronización",
+    "total": "Total",
+    "wificonnection": "Conexión WiFi"
+}

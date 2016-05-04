@@ -1,0 +1,13 @@
+{
+    "enrolme": "Matricularme",
+    "filter": "Filtro",
+    "filtermycourses": "Filtrar mis cursos",
+    "frontpage": "Página Principal",
+    "mycourses": "Mis cursos",
+    "nocourses": "No hay información del curso para mostrar.",
+    "password": "Clave",
+    "search": "Buscar",
+    "searchcourses": "Buscar cursos",
+    "selfenrolment": "Auto-matriculación",
+    "totalcoursesearchresults": "Total de cursos: {{$a}}"
+}
